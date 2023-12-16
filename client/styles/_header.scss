@@ -1,0 +1,25 @@
+
+header {
+  padding: 5pt 0;
+
+  h1 {
+    border-bottom: 1pt solid #cacaca;
+    /*
+    
+    Example on how to reference an image file from SCSS:
+
+    Place files inside:
+    public/source_assets/images
+
+    And reference using:
+    ~assets/images/[filename]
+
+    Example:
+    ~assets/images/smiley_face.png will translate to:
+    public/source_assets/images/smiley_face.png with the proper md5 hash
+    
+    */
+    background: transparent url("~assets/images/smiley_face.png") 0 0 no-repeat;
+    padding: 23pt 0 23pt 54pt;
+  }
+}

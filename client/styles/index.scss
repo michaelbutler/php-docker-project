@@ -1,0 +1,17 @@
+
+// Import Bootstrap CSS
+@import 'bootstrap/bootstrap';
+
+@import 'variables';
+@import 'flatpickr';
+@import 'general';
+
+// Specific Pages (Use Sparingly)
+@import 'header';
+@import 'footer';
+
+/* index.scss */
+
+/**
+Don't put SCSS here, put in _general.scss if there is no place for it
+ */
