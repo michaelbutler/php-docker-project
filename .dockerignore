@@ -1,0 +1,6 @@
+vendor/
+node_modules/
+client/
+Makefile
+Dockerfile
+.env

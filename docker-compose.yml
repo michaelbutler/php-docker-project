@@ -1,0 +1,17 @@
+version: "3.4"
+
+# This docker file is for DEV only, and doesn't include the PHP runtime.
+# Run the PHP server with `make server-dev`
+
+services:
+  redisdocker:
+    container_name: redisdocker
+    restart: "no"
+    image: redis:6-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+
+volumes:
+  redisdata:
