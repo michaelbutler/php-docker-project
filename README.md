@@ -7,6 +7,7 @@ Basic scss to css compilation is also offered.
 
 See the Makefile for possible commands. Here's a quick summary:
 
+* `make client-setup`: Runs npm install to set up SCSS and assets support
 * `make watch`: Run the npm command to watch for scss changes and compile to css
 * `make docker-up`: Spin up the docker-compose services
 * `make server-dev`: start a local dev server using docker
